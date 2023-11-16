@@ -13,11 +13,6 @@ const Footer = () => {
             width={118}
             height={18}
             className="object-contain" />
-          <p className="text-base text-gray-700">
-            Car Hub 2023
-            <br />
-            All rights reserved &copy;
-          </p>
         </div>
 
         <div className="footer__links">
@@ -38,7 +33,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p>@2023 CarHub. All Rights Reserved</p>
+        <p>&copy; 2023 CarHub</p>
         <div className="footer__copyrights-link">
           <Link href="/" className="text-gray-500"> Privacy Policy </Link>
           <Link href="/" className="text-gray-500"> Terms of Use </Link>
